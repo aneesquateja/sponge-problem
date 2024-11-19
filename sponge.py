@@ -1,6 +1,37 @@
 def sponge_case(sentence):
     # Write your solution here!
     pass
+   
+    # turn the sentence into an array of individual words
+    # words = sentence.split()
+
+    # # create a new array of sponge-case words using our helper function
+    # new_words = []
+    # for word in words:
+    #     new_words.append(sponge_single_word(word))
+
+    # # Join the new spongy words with spaces
+    # return " ".join(new_words)
+
+
+# Helper function that converts a single word to sponge-case 
+# def sponge_single_word(word):
+#     new_word = ""
+#     # Instructions say the word must start with a lowercase letter
+#     # We will toggle this variable to alternate between lower and upper case
+#     lower = True 
+
+#     for letter in word:
+#     # if our toggle is set to lowercase, add a lowercase version of the letter
+#         if lower:
+#             new_word += letter.lower()
+#         # if our toggle is set to lowercase, add a uppercase version of the letter
+#         else:
+#             new_word += letter.upper()
+#         # flip our toggle
+#         lower = not lower
+    
+#     return new_word
 
 
 
