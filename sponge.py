@@ -1,6 +1,41 @@
 def sponge_case(sentence):
+
+    # itterate through all the letters in the sentence untill end and make it lower case
+    # step each letter and convert it to upper untill you reach end 
+    result = ""
+
+    for i in range(len(sentence)):
+        if i % 2 == 0:
+            result += sentence[i].lower()
+        else:
+            result += sentence[i].upper()
+
+    return result
+
+
+
+
+
+
+
+# sponge_case("spongebob") --  sPoNgEbOb"
+# sponge_case(("Who are YOU calling A Pinhead")) -- "wHo aRe yOu cAlLiNg a pInHeAd"
+sponge_case("WHAT is UP my dude") 
+# sponge_case("E") --- Should return "e"
+
+
+
+
+
+
+
+
+
+
+
+
     # Write your solution here!
-    pass
+    
    
     # turn the sentence into an array of individual words
     # words = sentence.split()
